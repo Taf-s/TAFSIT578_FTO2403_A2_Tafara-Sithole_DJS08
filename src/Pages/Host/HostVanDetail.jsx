@@ -68,7 +68,7 @@ import { useParams, Link, NavLink, Outlet} from "react-router-dom"
 
                 </nav>
 
-                <Outlet />
+                <Outlet context={{currentVan}}/>
             </div>
         </section>
     )
